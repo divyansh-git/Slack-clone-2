@@ -1,0 +1,124 @@
+
+body{
+    margin:0px;
+}
+
+/* CSS FOR HEADER COMPONENT BEGIN */
+
+
+.Header{
+    background-color:rgb(54,13,55);
+    position: fixed;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.Header_left{
+    flex:0.3;
+    margin-top:10px;
+}
+.Header_search{
+    flex:0.4;
+    padding-right: 30px;
+    padding-top:4px;
+}
+.Header_search > input{
+    width:100%;
+    background-color:rgb(67,30,69);
+    border-radius:5px;
+    color:white;
+    margin-top:5px;
+    height:25px;
+    text-align: center;
+    font-size: 16px;
+    padding-top:2px;
+    border-width: 1px;
+}
+
+.Header_Right{
+    display: flex;
+    justify-content: space-between;
+    flex:0.3;
+    margin-top:10px;
+}
+
+/* CSS FOR HEADER COMPONENT END */
+
+/* CSS FOR SIDEBAR BEGGINS HERE */
+
+
+
+.Sidebar{
+    position: fixed;
+    color:white;
+    min-width: 250px;
+    background-color: rgb(64, 17, 64);
+    display: inline-block;
+    height:100vh;
+    
+}
+.channel_name{
+    padding:20px 10px 20px 10px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid Grey;
+}
+.channel_options{
+    padding-bottom:20px;
+    border-bottom: 1px solid Grey;
+}
+
+
+  /* CSS FOR SIDEBAR SECION ENDS HERE */
+
+     /* CSS FOR CHAT SECTION BEGINS HERE */
+
+
+.Chat{
+    flex: 0.7;
+    flex-grow: 1;
+    padding-bottom: 150px;
+  
+}
+
+.Chat_header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    margin-top:40px;
+    margin-left:18%;
+}
+.Login{
+    display:block;
+    margin:18% auto;
+    width:50%;
+}
+.Chat_input > form{
+    position: relative;
+  display: flex;
+  justify-content: center;
+}
+.Chat_Input >form > input{
+    position: fixed;
+    bottom: 30px;
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 20px;
+}
+.Chat_Input > form > button {
+    display: none !important;
+  }
+  
+.Chat_screen{
+   margin-top:10px;
+   margin-left:18%;
+}
+.message{
+    width:40%;
+}
+
+/* CSS FOR CHAT SECTION ENDS HERE */
